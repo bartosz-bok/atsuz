@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 60px; /* Dodaje marginesy z lewej i prawej strony */
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.centered-figure {
+    text-align: center; /* Wyśrodkowanie tekstu dla całego elementu figure */
+    margin: auto; /* Centrowanie całego bloku figure */
+}
+
+.centered-figure img {
+    display: block;
+    margin: 0 auto; /* Centrowanie obrazu w poziomie */
+}
+
+.centered-figure figcaption {
+    text-align: center; /* Centrowanie tekstu opisu */
+}
+
+
+
+#start {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#bio {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#ml-info {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#project {
+    text-align: justify;
+    text-justify: inter-word;
+}
