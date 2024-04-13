@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0 60px; /* Dodaje marginesy z lewej i prawej strony */
+    margin: 0 60px;
     padding: 0;
     line-height: 1.6;
 }
@@ -46,17 +46,17 @@ footer {
 }
 
 .centered-figure {
-    text-align: center; /* Wyśrodkowanie tekstu dla całego elementu figure */
-    margin: auto; /* Centrowanie całego bloku figure */
+    text-align: center;
+    margin: auto;
 }
 
 .centered-figure img {
     display: block;
-    margin: 0 auto; /* Centrowanie obrazu w poziomie */
+    margin: 0 auto;
 }
 
 .centered-figure figcaption {
-    text-align: center; /* Centrowanie tekstu opisu */
+    text-align: center;
 }
 
 

@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Funkcja do usuwania ciasteczka
     function clearCookie(name) {
-        setCookie(name, '', -1); // Usuń ciasteczko, ustawiając datę na przeszłą
+        setCookie(name, '', -1);
     }
 
     function displayVisitCounter(visits) {
@@ -57,19 +57,17 @@ document.addEventListener('DOMContentLoaded', function() {
         // Przycisk czyszczenia licznika
         const button = document.createElement('button');
         button.innerText = 'Wyczyść licznik';
-        button.style.marginLeft = '10px'; // Dodanie odstępu między licznikiem a przyciskiem
+        button.style.marginLeft = '10px';
         button.onclick = function() {
-            clearCookie('visits'); // Usuń ciasteczko
-            location.reload(); // Odśwież stronę, aby zresetować licznik
+            clearCookie('visits');
+            location.reload();
         };
 
-        // Dodanie elementów do kontenera i kontenera do ciała dokumentu
         container.appendChild(counterElement);
         container.appendChild(button);
         document.body.prepend(container);
     }
 
-    // Wywołaj funkcję manageVisitCounter przy załadowaniu strony
     manageVisitCounter();
 
 });
